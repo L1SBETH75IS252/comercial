@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercial</title>
+    <link rel="shortcut icon" href="logo comercial.jpg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            background-image: url("");
+        }
+        
+        @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        div {
+            padding: 20px;
+        }
+        
+        .navegacion {
+            display: inline-block;
+            width: 18%;
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(107, 201, 144);
+            padding: 10px 0;
+        }
+        
+        .cabecera {
+            width: 98%;
+            height: 200px;
+            color: #F1F1F1;
+            background-image: url("PORTADA1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        
+        .navegacion:hover {
+            background-color: black;
+            color: rgb(54, 128, 121);
+        }
+        
+        .Menu_navegacion {
+            width: 1300px;
+            height: 3px;
+            background-color: #29ada1;
+        }
+        
+        .Contenedor_padre {
+            display: flex;
+        }
+        
+        .contenedor_hijo2 {
+            background-color: "";
+        }
+        
+        .degradado {
+            background-color: #75aaa6;
+            background-image: linear-gradient ("");
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .columna {
+            float: left;
+            width: 50%;
+            padding-right: 5px;
+        }
+        
+        .fila::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        img {
+            /* Para que sea responsiva */
+            width: 100%;
+        }
+        
+        #imagen {
+            animation-duration: 1s;
+            animation-delay: 0s;
+            animation-name: sBote;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes sBote {
+            from {
+                margin-top: 0px;
+            }
+            to {
+                margin-top: 100px;
+            }
+        }
+        
+        .search-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #2C3441;
+            height: 40px;
+            border-radius: 40px;
+            padding: 10px;
+        }
+        
+        .search-box:hover>input {
+            width: 200px;
+            padding: 0 10px;
+        }
+        
+        .icon:hover {
+            transform: rotate (360deg) scale (0.8);
+        }
+        
+        .input {
+            width: 0;
+            border: none;
+            outline: none;
+            padding: 0;
+            background: none;
+            font-size: 1.1 rem;
+            transition: 0.5s ease;
+            line-height: 40px;
+            color: #fff;
+        }
+        
+        .icon {
+            color: #21DFCD;
+            float: rigth;
+            width: 40px;
+            font-size: 1.3rem;
+            height: 40px;
+            border-radius: 50% background #59a4c7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.4s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                    <div class="cabecera">
+                        <a class="navbar-brand" href="#">
+                            <marquee>
+                                <h1><b>COMERCIAL JUANITA</b></a>
+                        </h1>
+                        </marquee>
+
+
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="Menu_navegacion"></div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="">INICIO <span class="sr-only">(current)</span></a></li>
+                            <li><a href="https://www.desparasitaatumascota.es/parasitos-en-humanos">QUIENES SOMOS</a></li>
+                            <li><a href="https://www.desparasitaatumascota.es/consejos-veterinarios">CONTACTO</a></li>
+                            <li><a href="https://www.desparasitaatumascota.es/desparasitacion-interna-externa">BLOC</a></li>
+                            <li><a href="https://www.desparasitaatumascota.es/desparasitacion-interna-externa">FACTURACION ELECTRICONICA</a></li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REDES SOCIALES<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://www.facebook.com/lisbeth.garcia.33633/">FACEBOOK</a></li>
+                                    <li><a href="https://www.instagram.com/_lisbethgarcia/?hl=es">INSTAGRAM</a></li>
+                                    <li><a href="https://wa.me/+593978642180">WHATSAPP</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+                <div Class="Contenedor_padre">
+                    <div class="contenedor_hijo2">
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="BUSCADOR" />
+            <a href="##" class="icon">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+
+        <div class="imagen-rodan">
+            <marquee>
+                <h1><b>GRANDES PROMOCIONES EN SU TODOS LOS PRODUCTOS</b></a>
+                </h1>
+            </marquee>
+            <marquee scrolldelay="1" scrollamount="10" direction="left" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
+                <a href="p4.jpg" target="_blank"><img title="Titulo de la entrada" alt="Titulo de la entrada" src="P3.jpg" height="500px" width="800px" /></a>
+                <a href="p7.jpg" target="_blank"><img title="Titulo de la entrada" alt="Titulo de la entrada" src="P2.jpg" height="500px" width="800px" /></a>
+            </marquee>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="texto">
+                    <h1><b><center>QUIENES SOMOS</center></b></H1>
+                    <td align="center"> A través de los años nos hemos convertido en parte de las familias ecuatorianas, en Aldean Supermercados nos preocupamos por el ahorro y bienestar de nuestros clientes; compromiso por el cual nace COMERCIAL JUANITA. Brindamos una amplia
+                        gama de productos que son esenciales para las familias. Somos una cadena de supermercados con más de 25 años de experiencia, logrando satisfacer las necesidades cotidianas de nuestros clientes, con una proyección nacional.
+                    </td>
+                </div>
+                <div class="col-md-3 bg-success "><img src="p4.jpg" alt="" class="img-rounded" width="100%"></div>
+                <div class="col-md-4 bg-success"><img src="p5.jpg" alt="" class="img-rounded" width="100%"></div>
+                <div class="col-md-5 bg-success"><img src="p6.jpg" alt="" class="img-rounded" width="100%"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="p-3 mb-2 bg-transparent text-dark"><img id="imagen" src=""> <img src="p7.jpg" alt="" class="img-rounded" width="100%"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4 bg-primary">
+                <center>LACTEOS</center> <img src="P1.jpg" alt="" class="img-rounded" width="100%"></div>
+            <div class="col-md-4 bg-warning">
+                <center>VEGETALES </center><img src="P2.jpg" alt="" class="img-circle" width="100%"></div>
+            <div class="col-md-4 bg-info">
+                <center>CARNES</center><img src="P3.jpg" alt="" class="img-thumbnail" width="100%"></div>
+        </div>
+        <center>
+            <h1><b>CATEGORÍAS</b></a>
+            </h1>
+        </center>
+
+        <div class="fila">
+            <div class="columna">
+                <img src="IMA1.png">
+            </div>
+            <div class="columna">
+                <img src="IMA2.png">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="columna">
+                <img src="IMA3.png">
+            </div>
+            <div class="columna">
+                <img src="IMA4.png">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="columna">
+                <img src="IMA5.png">
+            </div>
+            <div class="columna">
+                <img src="IMA6.png">
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+        <div class="pie">
+
+        </div>
+
+        <h3>COMERCIAL JUANITA</h3>
+        <p>CONTACTO</p>
+        <h5>info@juanitasupermercados.com (02) 2755 510</h5>
+        </div>
+
+        <div class="degradado"></div>
+        </div>
+    </body>
+
+</html>
